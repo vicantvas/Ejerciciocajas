@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.principal{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.sec{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.morado{
+    display:flex;
+    justify-content:space-between;
+    background-color:purple;
+    height:150px;
+    width:900px;
+    margin-top:30px;
+    align-items:center;
+}
+.rosado{
+    display:flex;
+    justify-content:space-around;
+    background-color:pink;
+    height:50px;
+    width:250px;
+    align-items:center;
+}
+.r1{
+    flex:left;  
+}
+.r2{
+    flex:right; 
+}
+.verdoso{
+    display:flex;
+    justify-content:center;
+    background-color:green;
+    height:100px;
+    width:900px;
+}
+.azul{
+    display:flex;
+    justify-content:space-around;
+    background-color:lightblue;
+    height:350px;
+    width:700px;
+    align-items:flex-end;
+    flex:left;
+}
+.cafe{
+    display:flex;
+    justify-content:space-around;
+    background-color:brown;
+    height:350px;
+    width:200px;
+    align-items:center;
+    flex-direction:column;
+}
+.amarillo{
+    display:flex;
+    justify-content:space-between;
+    background-color:yellow;
+    height:100px;
+    width:100px;
+    align-items:center;
+    border:1px solid #000000;
+}
+.a1{
+    flex:left;  
+}
+.a2{
+    flex:center; 
+}
+.a3{
+    flex:right;
+}
+
